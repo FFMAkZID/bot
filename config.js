@@ -16,7 +16,7 @@ module.exports = {
         port: '47942', //PORT of your server - empty => default port (BE 19132, JA 25565)
         icon: 'https://media.discordapp.net/attachments/953234263694790676/968476774017171506/16509732408178907211946240157548.jpg', //Link to icon - like "https://website.com/icon.png"
         version: '1.18.30', //Minecraft version of sever
-        vote: '' //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
+        vote: 'https://minecraftpocket-servers.com/server/117984/vote/' //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
 
     //Basic code settings
@@ -67,8 +67,8 @@ module.exports = {
     //Embeds settings
     embeds: {
         colors: {
-            normal: '',  //Main/succesful color of embeds - choose HEX color here: https://htmlcolorcodes.com
-            error: '', //Error/unsuccesful color of embeds - choose HEX color here: https://htmlcolorcodes.com
+            normal: '0000FF',  //Main/succesful color of embeds - choose HEX color here: https://htmlcolorcodes.com
+            error: 'FF0000', //Error/unsuccesful color of embeds - choose HEX color here: https://htmlcolorcodes.com
         }
     },
 

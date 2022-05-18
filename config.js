@@ -3,19 +3,19 @@ module.exports = {
     //Your bot data
     bot: {
         token: '', //Your bot token - https://tinyurl.com/discordbot-token
-        prefix: '', //Your custom prefix of the bot, like "!" or "."
-        status: '', //Custom activity/status text
-        activity: '' //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
+        prefix: 'm!', //Your custom prefix of the bot, like "!" or "."
+        status: '{onlinePlayers}/{maxPlayers} online', //Custom activity/status text
+        activity: 'watching' //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
     },
 
     //Your minecraft server data
     server: {
-        name: '', //Your server name
-        type: '', //"java" or "bedrock"
-        ip: '', //IP of your server - do not include port - e.g. "mc.hypixel.net"
-        port: '', //PORT of your server - empty => default port (BE 19132, JA 25565)
+        name: 'Mabar Skuy', //Your server name
+        type: 'bedrock', //"java" or "bedrock"
+        ip: 'ffmakzid.aternos.me', //IP of your server - do not include port - e.g. "mc.hypixel.net"
+        port: '47942', //PORT of your server - empty => default port (BE 19132, JA 25565)
         icon: '', //Link to icon - like "https://website.com/icon.png"
-        version: '', //Minecraft version of sever
+        version: '1.18.30', //Minecraft version of sever
         vote: '' //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
 
@@ -34,7 +34,7 @@ module.exports = {
 
     //Period of auto changing status if you are using {onlinePlayers} or {maxPlayers} in bot's status
     autoStatus: {
-        time: '10min'
+        time: '1min'
     },
 
     //Voting channel - https://docs.petyxbron.cz/config/config-info#voting-ch

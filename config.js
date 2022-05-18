@@ -2,7 +2,7 @@
 module.exports = {
     //Your bot data
     bot: {
-        token: '', //Your bot token - https://tinyurl.com/discordbot-token
+        token: 'OTc1NjgxNTc4NDgxMDk0NjU2.GFvuEr.1eweprwmXGfNfFqKd-Fg9oEqLenHlCfavf3abE', //Your bot token - https://tinyurl.com/discordbot-token
         prefix: 'm!', //Your custom prefix of the bot, like "!" or "."
         status: '{onlinePlayers}/{maxPlayers} online', //Custom activity/status text
         activity: 'watching' //You can choose: PLAYING, LISTENING, WATCHING, COMPETING
@@ -14,7 +14,7 @@ module.exports = {
         type: 'bedrock', //"java" or "bedrock"
         ip: 'ffmakzid.aternos.me', //IP of your server - do not include port - e.g. "mc.hypixel.net"
         port: '47942', //PORT of your server - empty => default port (BE 19132, JA 25565)
-        icon: '', //Link to icon - like "https://website.com/icon.png"
+        icon: 'https://media.discordapp.net/attachments/953234263694790676/968476774017171506/16509732408178907211946240157548.jpg', //Link to icon - like "https://website.com/icon.png"
         version: '1.18.30', //Minecraft version of sever
         vote: '' //Vote link - like "https://minecraftpocket-servers.com/server/80103/vote/"
     },
